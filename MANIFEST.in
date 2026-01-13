@@ -1,0 +1,9 @@
+include README.md
+include requirements.txt
+recursive-include test_data *
+recursive-include tutorial *
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .ipynb_checkpoints
+global-exclude .DS_Store
+

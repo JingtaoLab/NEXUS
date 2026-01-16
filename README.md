@@ -2,10 +2,10 @@
 NEXUS is a computational model designed to biologically meaningful encoding of single-cell transcriptomic data at the sample level. It enables the dimensional encoding of single-cell transcriptomes at the sample scale and leverages these encodings for downstream analyses such as sample population clustering.  
 
 
-# Installation
-Method 1: Install from Source (Recommended)  
+## Installation
+### Install from Source (Recommended)  
 Clone the repository:  
-```
+```bash
 git clone https://github.com/JingtaoLab/NEXUS.git  
 cd NEXUS  
 pip install -r requirements.txt  
@@ -13,24 +13,24 @@ python setup.py install
 ```  
 
 
-# The test dataset
+## The test dataset
 The test dataset test.h5ad is available in GitHub Releases. You can download it using the following methods:  
-Method 1: Download via Browser  
+### Method 1: Download via Browser  
 Visit the Releases page:  
 https://github.com/JingtaoLab/NEXUS/releases/tag/test-dataset  
 Find the test.h5ad file in the Assets section and click to download  
 
-Method 2: Download via Command Line  
+### Method 2: Download via Command Line  
 Using wget (Linux/Mac):  
-```
+```bash
 wget https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad
 ```
 Or using curl:  
-```
+```bash
 curl -L -O https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad
 ```
 In Windows PowerShell:  
-```
+```bash
 Invoke-WebRequest -Uri https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad -OutFile test.h5ad
 ```
 

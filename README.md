@@ -5,16 +5,12 @@ NEXUS is a computational model designed to biologically meaningful encoding of s
 # Installation
 Method 1: Install from Source (Recommended)  
 Clone the repository:  
-git clone https://github.com/JingtaoLab/NEXUS.gitcd NEXUS  
+` ```bash 
+git clone https://github.com/JingtaoLab/NEXUS.gitcd NEXUS`
 Install dependencies and the package:  
 pip install -r requirements.txtpip install -e .  
 Alternatively, install using setup.py:  
 python setup.py install  
-
-Method 2: Install via pip  
-If the package is published to PyPI:  
-pip install nexus  
-Download Test Dataset  
 
 
 # The test dataset

@@ -30,16 +30,16 @@ Or using curl:
 curl -L -O https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad
 ```
 In Windows PowerShell:  
-```bash
+```powershell
 Invoke-WebRequest -Uri https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad -OutFile test.h5ad
 ```
 
 
-# Usage
+## Usage
 For examples and tutorials, please refer to the Jupyter Notebooks in the tutorial/ directory.  
 
 
-# System Requirements
+## System Requirements
 Python 3.10.16  
 Dependencies are listed in requirements.txt  
 

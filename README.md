@@ -8,7 +8,7 @@ Clone the repository:
 ```
 git clone https://github.com/JingtaoLab/NEXUS.git  
 cd NEXUS  
-pip install -r requirements.txtpip install -e .  
+pip install -r requirements.txt  
 python setup.py install  
 ```  
 
@@ -22,14 +22,17 @@ Find the test.h5ad file in the Assets section and click to download
 
 Method 2: Download via Command Line  
 Using wget (Linux/Mac):  
-wget https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad  
+```
+wget https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad
+```
 Or using curl:  
-curl -L -O https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad  
+```
+curl -L -O https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad
+```
 In Windows PowerShell:  
-Invoke-WebRequest -Uri https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad -OutFile test.h5ad  
-
-Method 3: Download using Python  
-import urllib.requesturl = "https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad"urllib.request.urlretrieve(url, "test.h5ad")  
+```
+Invoke-WebRequest -Uri https://github.com/JingtaoLab/NEXUS/releases/download/test-dataset/test.h5ad -OutFile test.h5ad
+```
 
 
 # Usage
